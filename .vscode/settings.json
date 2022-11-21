@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
+    "workbench.preferredHighContrastColorTheme": "GitHub Dark Dimmed",
+    "typescript.inlayHints.enumMemberValues.enabled": false,
+    "window.autoDetectColorScheme": false
+}
