@@ -21,7 +21,8 @@ int main()
     struct dtree old = {};
     struct dtree new = {};
     
-    struct ptrlist delet
+    struct ptrlist* deletions = newlist();
+    struct ptrlist* additions = newlist();
 
     generatetree(&old);
     printf("GENERATED 1\n");
@@ -30,7 +31,7 @@ int main()
     scanf("%d", &obama_balls);
     generatetree(&new);
 
-    int created = treedifference(&new, &old, creations); //no. of new entries
+    int added = treedifference(&new, &old, additions); //no. of new entries
     int deleted = treedifference(&old, &new, deletions); //no. of deleted entries
 
     printf("\n\n\n%d %d\n", created, deleted);
